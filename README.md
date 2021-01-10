@@ -13,13 +13,6 @@ Je vais vous aider à programmer un bon bot sur discord.js
 
 # Rejoinds le serveur discord en cliquant sur son icône en cas de problème avec le bot !
 
-
-# ⇥ Discord.JS-Coding-Tutorials ⇤
-
-➽ Official GitHub of recon on YouTube, Discord.JS Coding Tutorials v12, 
-
-
-
 # Comment trouver le code au bon épisode ?
 
 Tu dois cliques sur Branches et choisir l'épisode qui te conviendra
