@@ -1,3 +1,22 @@
+# Épisode 1 : Installer le bot
+
+Vidéo Youtube :
+
+
+Voici les différents sites pour installer ton bot :
+
+Discord Développeur : https://discord.com/developers/applications/
+
+Discord calculatrice des permissions : https://discordapi.com/permissions.html#0
+
+Visual Studio : https://code.visualstudio.com/
+
+Node.js : https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi
+
+
+Une fois dans Visual Studio Code (VSC) va dans le Terminal et exécute "npmi i discord.js"
+
+
 # Tuto-Bot
 Je vais vous aider à programmer un bon bot sur discord.js
 
