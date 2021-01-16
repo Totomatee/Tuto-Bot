@@ -27,4 +27,34 @@ client.on("message", async message =>{
 
 message.reply(embed)
     }
+    
+    
+    
+    const Embedaprofondi = new Discord.MessageEmbed()
+	.setColor('#0099ff')
+	.setTitle('Titre')
+	.setURL('https://discord.js.org/')
+	.setAuthor('Un nom', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.gg/qCAMmgU')
+	.setDescription('Une description')
+	.setThumbnail('https://images-ext-2.discordapp.net/external/FGajrDizjsgdTOQjt-ImLibxyr9BInMbIjxVBuqdDOw/%3Fsize%3D512/https/cdn.discordapp.com/avatars/663437246678171689/b706cb94999938749ba7c0f1af608843.png')
+	.addFields(
+		{ name: 'Titre des attachés', value: 'Une valeur ici 1' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: "Titre d'un attaché", value: 'Une valeur ici 2', inline: true },
+		{ name: "Titre d'un attaché", value: 'Une valeur ici 3', inline: true },
+	)
+	.addField("Titre d'un attaché solitaire", 'Une valeur ici 4', true)
+	.setImage('https://i.imgur.com/wSTFkRM.png')
+	.setTimestamp()
+	.setFooter('Un bas de page ici', 'https://images-ext-2.discordapp.net/external/FGajrDizjsgdTOQjt-ImLibxyr9BInMbIjxVBuqdDOw/%3Fsize%3D512/https/cdn.discordapp.com/avatars/663437246678171689/b706cb94999938749ba7c0f1af608843.png');
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 })
