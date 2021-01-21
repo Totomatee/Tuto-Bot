@@ -10,6 +10,26 @@ client.on("ready", ()=> {console.log("Connecté")})
 
 client.login(token)
 
+client.on("ready", () =>{console.log(`${client.user.tag} connecté avec succès id : ${client.user.id}`);
+const activitieslist = [
+  "activité 1", 
+  `activité 2`,
+  "activité 3", 
+  `activité 4`,
+  "activité 5", 
+  `activité 6`,
+  "activité 7", 
+  `activité 8`
+  ];
+
+
+  setInterval(() => {
+      const index = Math.floor(Math.random() * (activitieslist.length - 1) + 1); 
+      client.user.setActivity(activitieslist[index]);
+  }, 5000); 
+        });
+
+
 
 
 
