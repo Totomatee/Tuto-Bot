@@ -1,4 +1,5 @@
 # Tuto-Bot
+<img src="main.svg" width="800" height="400">
 Je vais vous aider à programmer un bon bot sur discord.js
 
 
